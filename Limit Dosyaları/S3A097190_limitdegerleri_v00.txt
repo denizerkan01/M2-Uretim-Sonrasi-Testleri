@@ -1,0 +1,80 @@
+firmware_version = "00A000000002T01B"
+device_name = "ArNav S3A"
+arview_path = r"C:\Program Files\ArView\ArView.exe"
+
+base_path = r"C:\Users\Deniz Erkan\Desktop\test\Sistemler\Uretim Sonrasi Testi\S3A"
+
+device_folder = r"Device"
+data_select_folder = "Data Select"
+kalibrasyon_kontrol_folder = "Kalibrasyon Testi"
+hard_reset_folder = r"Reset Testi\Hard Reset"
+soft_reset_folder = r"Reset Testi\Soft Reset"
+acc_acilis_folder = r"ACC Norm Testi\Acilis Testi"
+acc_dondurme_folder = r"ACC Norm Testi\Dondurme Testi"
+euler_kontrol_folder = r"Euler Kontrol Testi"
+gyro_z_folder = r"Gyro Z Testi"
+magn_norm_folder = r"Magn Testi"
+uart_folder = r"UART Testi"
+
+
+sleep_time_data_select = 5
+sleep_time_reset_testi = 5
+sleep_time_acc_norm_gyro_acilis = 5
+sleep_time_acc_dondurme = 5
+sleep_time_euler_kontrol = 5
+sleep_time_gyroz = 60
+sleep_time_magn = 60
+sleep_time_uart = 5
+
+acc_acilis_successfull_needed = 10
+
+max_ok_acc_norm_value = 9.82
+min_ok_acc_norm_value = 9.78
+max_best_acc_norm_value = 9.81
+min_best_acc_norm_value = 9.77
+
+max_roll_value = 0.1
+min_roll_value = -0.1
+max_pitch_value = 0.1
+min_pitch_value = -0.1
+
+tolerance_value = 0.1
+
+checkbox_states_general = [
+    ("Accelerometer", 1),
+    ("Gyroscope", 1),
+    ("Magnetometer", 1),
+    ("Euler Angles", 1),
+    ("Latitude Longitude Altitude", 0),
+    ("Pressure", 0),
+    ("Velocity", 0),
+    ("Scaled Llh", 0),
+    ("Status", 1),
+    ("Low Rate", 1),
+]
+
+expected_columns_general = [
+    "Acc X", "Acc Y", "Acc Z",
+    "Gyro X", "Gyro Y", "Gyro Z",
+    "Magn X", "Magn Y", "Magn Z",
+    "Euler X", "Euler Y", "Euler Z",
+    "Time", "Status",
+    "LowRate X", "LowRate Y", "LowRate Z",
+]
+
+checkbox_states_magn = [
+    ("Accelerometer", 1),
+    ("Gyroscope", 1),
+    ("Magnetometer", 1),
+    ("Euler Angles", 1),
+    ("Latitude Longitude Altitude", 0),
+    ("Pressure", 0),
+    ("Velocity", 0),
+    ("Scaled Llh", 0),
+    ("Status", 1),
+    ("Low Rate", 1),
+]
+
+ref_matrix_acc = [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+ref_matrix_gyro = [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+ref_matrix_magn = [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]

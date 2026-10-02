@@ -1,0 +1,147 @@
+firmware_version = "00A10901C012002F"
+device_name = "ArNav M2-GR"
+hw_num = "M223A-A"
+arview_path = r"C:\Program Files\ArView\ArView.exe"
+
+base_path = r"C:\Users\Deniz Erkan\Desktop\test\Sistemler\Uretim Sonrasi Testi\M2\GR"
+
+data_select_folder = "Data Select"
+kalibrasyon_kontrol_folder = "Kalibrasyon Testi"
+hard_reset_folder = r"Reset Testi\Hard Reset"
+soft_reset_folder = r"Reset Testi\Soft Reset"
+acc_acilis_folder = r"ACC Norm Testi\Acilis Testi"
+acc_dondurme_folder = r"ACC Norm Testi\Dondurme Testi"
+euler_kontrol_folder = r"Euler Kontrol Testi"
+gyro_z_folder = r"Gyro Z Testi"
+gps_folder = r"GPS Testi"
+rtk_folder = r"RTK Testi"
+magn_norm_folder = r"Magn Testi"
+rs422_folder = r"RS422"
+
+sleep_time_data_select = 5
+sleep_time_reset_testi = 5
+sleep_time_acc_norm_gyro_acilis = 5
+sleep_time_acc_dondurme = 2
+sleep_time_euler_kontrol = 2
+sleep_time_gyroz = 60
+sleep_time_gps = 180
+sleep_time_rtk = 180
+sleep_time_magn = 120
+
+gps_testi_id = 35
+low_rate_rtk_id = 67
+
+acc_acilis_successfull_needed = 1
+
+max_ok_acc_norm_value = 9.99
+min_ok_acc_norm_value = 9.73
+max_best_acc_norm_value = 9.82
+min_best_acc_norm_value = 9.78
+
+max_roll_value = 3
+min_roll_value = -3
+max_pitch_value = 3
+min_pitch_value = -3
+
+tolerance_value = 0.1
+
+checkbox_states_target_meas = [
+    ("AHRS MAG", 1),
+    ("GNSS/INS BARO", 1),
+    ("GNSS/INS MAG", 0),
+    ("GNSS/INS HEADING", 0),
+    ("GNSS/INS VERTICAL REFERENCE", 0),
+    ("GNSS/INS NONHOLONOMIC", 0),
+]
+
+checkbox_states_target_meas_gyroz_testi = [
+    ("AHRS MAG", 0),
+    ("GNSS/INS BARO", 1),
+    ("GNSS/INS MAG", 0),
+    ("GNSS/INS HEADING", 0),
+    ("GNSS/INS VERTICAL REFERENCE", 0),
+    ("GNSS/INS NONHOLONOMIC", 0),
+]
+
+checkbox_states_target_meas_gyroz_testi_m2gr = [
+    ("AHRS MAG", 1),
+    ("GNSS/INS BARO", 1),
+    ("GNSS/INS MAG", 0),
+    ("GNSS/INS HEADING", 0),
+    ("GNSS/INS VERTICAL REFERENCE", 0),
+    ("GNSS/INS NONHOLONOMIC", 0),
+]
+
+
+checkbox_states_general = [
+    ("Accelerometer", 1),
+    ("Gyroscope", 1),
+    ("Magnetometer", 0),
+    ("Euler Angles", 1),
+    ("Latitude Longitude Altitude", 0),
+    ("Pressure", 1),
+    ("Velocity", 0),
+    ("Scaled Llh", 0),
+    ("Status", 1),
+    ("Low Rate", 1),
+]
+
+checkbox_states_magn = [
+    ("Accelerometer", 1),
+    ("Gyroscope", 1),
+    ("Magnetometer", 1),
+    ("Euler Angles", 1),
+    ("Latitude Longitude Altitude", 0),
+    ("Pressure", 1),
+    ("Velocity", 0),
+    ("Scaled Llh", 0),
+    ("Status", 1),
+    ("Low Rate", 1),
+]
+
+checkbox_states_gps = [
+    ("Accelerometer", 1),
+    ("Gyroscope", 1),
+    ("Magnetometer", 0),
+    ("Euler Angles", 1),
+    ("Latitude Longitude Altitude", 0),
+    ("Pressure", 1),
+    ("Velocity", 0),
+    ("Scaled Llh", 1),
+    ("Status", 1),
+    ("Low Rate", 1),
+]
+
+expected_columns_general = [
+    "Acc X", "Acc Y", "Acc Z",
+    "Gyro X", "Gyro Y", "Gyro Z",
+    "Euler X", "Euler Y", "Euler Z",
+    "Pres X", "Pres Y", "Pres Z",
+    "Time", "Status",
+    "LowRate X", "LowRate Y", "LowRate Z",
+]
+
+expected_columns_magn = [
+    "Acc X", "Acc Y", "Acc Z",
+    "Gyro X", "Gyro Y", "Gyro Z",
+    "Magn X", "Magn Y", "Magn Z",
+    "Euler X", "Euler Y", "Euler Z",
+    "Pres X", "Pres Y", "Pres Z",
+    "Time", "Status",
+    "LowRate X", "LowRate Y", "LowRate Z",
+]
+
+expected_columns_gps = [
+    "Acc X", "Acc Y", "Acc Z",
+    "Gyro X", "Gyro Y", "Gyro Z",
+    "Euler X", "Euler Y", "Euler Z",
+    "Pres X", "Pres Y", "Pres Z",
+    "SLlhX", "SLlhY", "SLlhZ",
+    "Time", "Status",
+    "LowRate X", "LowRate Y", "LowRate Z",
+]
+
+
+ref_matrix_acc = [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+ref_matrix_gyro = [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
+ref_matrix_magn = [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]

@@ -1,0 +1,1088 @@
+Control Identifiers:
+
+Dialog - '"ArNav M2-GR(25325220)" @COM7 (Connected)'    (L-1390, T93, R-162, B859)
+['Dialog', '"ArNav M2-GR(25325220)" @COM7 (Connected)Dialog', '"ArNav M2-GR(25325220)" @COM7 (Connected)', 'Dialog0', 'Dialog1']
+child_window(title=""ArNav M2-GR(25325220)" @COM7 (Connected)", auto_id="FormMain", control_type="Window")
+   | 
+   | Dialog - 'Settings'    (L-1248, T133, R-304, B818)
+   | ['Dialog2', 'Settings', 'SettingsDialog', 'Settings0', 'Settings1']
+   | child_window(title="Settings", auto_id="DevSettings", control_type="Window")
+   |    | 
+   |    | Pane - ''    (L-1225, T189, R-327, B735)
+   |    | ['Firmware VersionPane', 'Pane', 'Pane0', 'Pane1', 'Firmware VersionPane0', 'Firmware VersionPane1']
+   |    | child_window(auto_id="exPanel1", control_type="Pane")
+   |    |    | 
+   |    |    | ListBox - ''    (L-1224, T190, R-328, B734)
+   |    |    | ['ListBox', 'Firmware VersionListBox']
+   |    |    | child_window(auto_id="listViewSettings", control_type="List")
+   |    |    |    | 
+   |    |    |    | Header - 'Üstbilgi Denetimi'    (L-1224, T190, R-345, B214)
+   |    |    |    | ['Header', 'Üstbilgi Denetimi', 'Üstbilgi DenetimiHeader']
+   |    |    |    | child_window(title="Üstbilgi Denetimi", auto_id="Header", control_type="Header")
+   |    |    |    |    | 
+   |    |    |    |    | HeaderItem - 'Name'    (L-1224, T190, R-975, B214)
+   |    |    |    |    | ['NameHeaderItem', 'HeaderItem', 'Name', 'HeaderItem0', 'HeaderItem1', 'Name0', 'Name1']
+   |    |    |    |    | child_window(title="Name", auto_id="HeaderItem 0", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | HeaderItem - 'Value'    (L-975, T190, R-530, B214)
+   |    |    |    |    | ['ValueHeaderItem', 'HeaderItem2', 'Value']
+   |    |    |    |    | child_window(title="Value", auto_id="HeaderItem 1", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | HeaderItem - 'Unit'    (L-530, T190, R-470, B214)
+   |    |    |    |    | ['UnitHeaderItem', 'Unit', 'HeaderItem3']
+   |    |    |    |    | child_window(title="Unit", auto_id="HeaderItem 2", control_type="HeaderItem")
+   |    |    |    |    | 
+   |    |    |    |    | HeaderItem - 'Type'    (L-470, T190, R-388, B214)
+   |    |    |    |    | ['TypeHeaderItem', 'HeaderItem4', 'Type']
+   |    |    |    |    | child_window(title="Type", auto_id="HeaderItem 3", control_type="HeaderItem")
+   |    |    |    | 
+   |    |    |    | ScrollBar - 'Dikey'    (L-345, T190, R-324, B734)
+   |    |    |    | ['ScrollBar', 'Dikey', 'DikeyScrollBar']
+   |    |    |    | child_window(title="Dikey", auto_id="NonClientVerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Satýr yukarý'    (L-345, T190, R-324, B211)
+   |    |    |    |    | ['Button', 'Satýr yukarý', 'Satýr yukarýButton', 'Button0', 'Button1']
+   |    |    |    |    | child_window(title="Satýr yukarý", auto_id="UpButton", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Thumb - 'Konum'    (L-345, T211, R-324, B495)
+   |    |    |    |    | ['Konum', 'KonumThumb', 'Thumb', 'Thumb0', 'Thumb1']
+   |    |    |    |    | child_window(title="Konum", auto_id="ScrollbarThumb", control_type="Thumb")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Bir sayfa aþaðý'    (L-345, T495, R-324, B713)
+   |    |    |    |    | ['Bir sayfa aþaðýButton', 'Bir sayfa aþaðý', 'Button2']
+   |    |    |    |    | child_window(title="Bir sayfa aþaðý", auto_id="DownPageButton", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Satýr aþaðý'    (L-345, T713, R-324, B734)
+   |    |    |    |    | ['Satýr aþaðýButton', 'Satýr aþaðý', 'Button3']
+   |    |    |    |    | child_window(title="Satýr aþaðý", auto_id="DownButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | GroupBox - 'Info'    (L-1224, T214, R-345, B488)
+   |    |    |    | ['GroupBox', 'Info', 'InfoGroupBox', 'GroupBox0', 'GroupBox1']
+   |    |    |    | child_window(title="Info", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'Firmware Version'    (L-1224, T235, R-388, B259)
+   |    |    |    |    | ['Firmware VersionListItem', 'ListItem', 'Firmware Version', 'Firmware Version0', 'Firmware Version1', 'ListItem0', 'ListItem1']
+   |    |    |    |    | child_window(title="Firmware Version", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Firmware Version'    (L-1224, T235, R-388, B259)
+   |    |    |    |    |    | ['Static', 'Firmware Version2', 'Firmware VersionStatic', 'Static0', 'Static1', 'Firmware VersionStatic0', 'Firmware VersionStatic1']
+   |    |    |    |    |    | child_window(title="Firmware Version", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '"00A10901C012002F"'    (L-975, T235, R-530, B259)
+   |    |    |    |    |    | ['"00A10901C012002F"Static', 'Static2', '"00A10901C012002F"', '"00A10901C012002F"Static0', '"00A10901C012002F"Static1']
+   |    |    |    |    |    | child_window(title=""00A10901C012002F"", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T235, R-470, B259)
+   |    |    |    |    |    | ['"00A10901C012002F"Static2', 'Static3']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'string[16]'    (L-470, T235, R-388, B259)
+   |    |    |    |    |    | ['string[16]', 'Static4', 'string[16]Static', 'string[16]0', 'string[16]1', 'string[16]Static0', 'string[16]Static1']
+   |    |    |    |    |    | child_window(title="string[16]", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'Serial Number'    (L-1224, T260, R-388, B284)
+   |    |    |    |    | ['ListItem2', 'Serial Number', 'Serial NumberListItem', 'Serial Number0', 'Serial Number1']
+   |    |    |    |    | child_window(title="Serial Number", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Serial Number'    (L-1224, T260, R-388, B284)
+   |    |    |    |    |    | ['Static5', 'Serial Number2', 'Serial NumberStatic']
+   |    |    |    |    |    | child_window(title="Serial Number", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '"25325220"'    (L-975, T260, R-530, B284)
+   |    |    |    |    |    | ['"25325220"Static', 'Static6', '"25325220"', '"25325220"Static0', '"25325220"Static1']
+   |    |    |    |    |    | child_window(title=""25325220"", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T260, R-470, B284)
+   |    |    |    |    |    | ['"25325220"Static2', 'Static7']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'string[16]'    (L-470, T260, R-388, B284)
+   |    |    |    |    |    | ['string[16]2', 'Static8', 'string[16]Static2']
+   |    |    |    |    |    | child_window(title="string[16]", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'DevicePN'    (L-1224, T285, R-388, B309)
+   |    |    |    |    | ['DevicePNListItem', 'ListItem3', 'DevicePN', 'DevicePN0', 'DevicePN1']
+   |    |    |    |    | child_window(title="DevicePN", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'DevicePN'    (L-1224, T285, R-388, B309)
+   |    |    |    |    |    | ['DevicePNStatic', 'Static9', 'DevicePN2']
+   |    |    |    |    |    | child_window(title="DevicePN", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '"M2GR051433A"'    (L-975, T285, R-530, B309)
+   |    |    |    |    |    | ['"M2GR051433A"', 'Static10', '"M2GR051433A"Static', '"M2GR051433A"Static0', '"M2GR051433A"Static1']
+   |    |    |    |    |    | child_window(title=""M2GR051433A"", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T285, R-470, B309)
+   |    |    |    |    |    | ['Static11', '"M2GR051433A"Static2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'string[20]'    (L-470, T285, R-388, B309)
+   |    |    |    |    |    | ['string[20]', 'string[20]Static', 'Static12']
+   |    |    |    |    |    | child_window(title="string[20]", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'Name'    (L-1224, T310, R-388, B334)
+   |    |    |    |    | ['NameListItem', 'ListItem4', 'Name2']
+   |    |    |    |    | child_window(title="Name", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Name'    (L-1224, T310, R-388, B334)
+   |    |    |    |    |    | ['NameStatic', 'Static13', 'Name3']
+   |    |    |    |    |    | child_window(title="Name", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '"ArNav M2-GR"'    (L-975, T310, R-530, B334)
+   |    |    |    |    |    | ['"ArNav M2-GR"Static', '"ArNav M2-GR"', 'Static14', '"ArNav M2-GR"Static0', '"ArNav M2-GR"Static1']
+   |    |    |    |    |    | child_window(title=""ArNav M2-GR"", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T310, R-470, B334)
+   |    |    |    |    |    | ['"ArNav M2-GR"Static2', 'Static15']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'string[16]'    (L-470, T310, R-388, B334)
+   |    |    |    |    |    | ['string[16]3', 'Static16', 'string[16]Static3']
+   |    |    |    |    |    | child_window(title="string[16]", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'CurrentMode'    (L-1224, T335, R-388, B359)
+   |    |    |    |    | ['ListItem5', 'CurrentModeListItem', 'CurrentMode', 'CurrentMode0', 'CurrentMode1']
+   |    |    |    |    | child_window(title="CurrentMode", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'CurrentMode'    (L-1224, T335, R-388, B359)
+   |    |    |    |    |    | ['CurrentMode2', 'Static17', 'CurrentModeStatic']
+   |    |    |    |    |    | child_window(title="CurrentMode", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L-975, T335, R-530, B359)
+   |    |    |    |    |    | ['Static18', '1Static', '1', '1Static0', '1Static1', '10', '11']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T335, R-470, B359)
+   |    |    |    |    |    | ['Static19', '1Static2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L-470, T335, R-388, B359)
+   |    |    |    |    |    | ['intStatic', 'int', 'Static20', 'intStatic0', 'intStatic1', 'int0', 'int1']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'CurrentMeas'    (L-1224, T360, R-388, B384)
+   |    |    |    |    | ['CurrentMeasListItem', 'ListItem6', 'CurrentMeas', 'CurrentMeas0', 'CurrentMeas1']
+   |    |    |    |    | child_window(title="CurrentMeas", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'CurrentMeas'    (L-1224, T360, R-388, B384)
+   |    |    |    |    |    | ['CurrentMeasStatic', 'Static21', 'CurrentMeas2']
+   |    |    |    |    |    | child_window(title="CurrentMeas", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0'    (L-975, T360, R-530, B384)
+   |    |    |    |    |    | ['0Static', 'Static22', '0', '0Static0', '0Static1', '00', '01']
+   |    |    |    |    |    | child_window(title="0", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T360, R-470, B384)
+   |    |    |    |    |    | ['0Static2', 'Static23']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L-470, T360, R-388, B384)
+   |    |    |    |    |    | ['intStatic2', 'int2', 'Static24']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'CurrentSensorStatus'    (L-1224, T385, R-388, B409)
+   |    |    |    |    | ['CurrentSensorStatus', 'CurrentSensorStatusListItem', 'ListItem7', 'CurrentSensorStatus0', 'CurrentSensorStatus1']
+   |    |    |    |    | child_window(title="CurrentSensorStatus", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'CurrentSensorStatus'    (L-1224, T385, R-388, B409)
+   |    |    |    |    |    | ['CurrentSensorStatus2', 'CurrentSensorStatusStatic', 'Static25']
+   |    |    |    |    |    | child_window(title="CurrentSensorStatus", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '3'    (L-975, T385, R-530, B409)
+   |    |    |    |    |    | ['3', 'Static26', '3Static', '3Static0', '3Static1']
+   |    |    |    |    |    | child_window(title="3", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T385, R-470, B409)
+   |    |    |    |    |    | ['Static27', '3Static2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L-470, T385, R-388, B409)
+   |    |    |    |    |    | ['intStatic3', 'int3', 'Static28']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'ErrorId'    (L-1224, T410, R-388, B434)
+   |    |    |    |    | ['ErrorId', 'ListItem8', 'ErrorIdListItem', 'ErrorId0', 'ErrorId1']
+   |    |    |    |    | child_window(title="ErrorId", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'ErrorId'    (L-1224, T410, R-388, B434)
+   |    |    |    |    |    | ['ErrorId2', 'Static29', 'ErrorIdStatic']
+   |    |    |    |    |    | child_window(title="ErrorId", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L-975, T410, R-530, B434)
+   |    |    |    |    |    | ['Static30', '1Static3', '12']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T410, R-470, B434)
+   |    |    |    |    |    | ['Static31', '1Static4']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L-470, T410, R-388, B434)
+   |    |    |    |    |    | ['intStatic4', 'int4', 'Static32']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'State'    (L-1224, T435, R-388, B459)
+   |    |    |    |    | ['State', 'StateListItem', 'ListItem9', 'State0', 'State1']
+   |    |    |    |    | child_window(title="State", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'State'    (L-1224, T435, R-388, B459)
+   |    |    |    |    |    | ['State2', 'Static33', 'StateStatic']
+   |    |    |    |    |    | child_window(title="State", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0'    (L-975, T435, R-530, B459)
+   |    |    |    |    |    | ['0Static3', 'Static34', '02']
+   |    |    |    |    |    | child_window(title="0", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T435, R-470, B459)
+   |    |    |    |    |    | ['0Static4', 'Static35']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L-470, T435, R-388, B459)
+   |    |    |    |    |    | ['intStatic5', 'int5', 'Static36']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'Hardware Version'    (L-1224, T460, R-388, B484)
+   |    |    |    |    | ['Hardware Version', 'Hardware VersionListItem', 'ListItem10', 'Hardware Version0', 'Hardware Version1']
+   |    |    |    |    | child_window(title="Hardware Version", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Hardware Version'    (L-1224, T460, R-388, B484)
+   |    |    |    |    |    | ['Hardware Version2', 'Static37', 'Hardware VersionStatic', 'Hardware VersionStatic0', 'Hardware VersionStatic1']
+   |    |    |    |    |    | child_window(title="Hardware Version", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '"M223A-A"'    (L-975, T460, R-530, B484)
+   |    |    |    |    |    | ['"M223A-A"Static', '"M223A-A"', 'Static38', '"M223A-A"Static0', '"M223A-A"Static1']
+   |    |    |    |    |    | child_window(title=""M223A-A"", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T460, R-470, B484)
+   |    |    |    |    |    | ['"M223A-A"Static2', 'Static39']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'string[16]'    (L-470, T460, R-388, B484)
+   |    |    |    |    |    | ['string[16]4', 'Static40', 'string[16]Static4']
+   |    |    |    |    |    | child_window(title="string[16]", control_type="Text")
+   |    |    |    | 
+   |    |    |    | GroupBox - 'Basic'    (L-1224, T488, R-345, B712)
+   |    |    |    | ['GroupBox2', 'Basic', 'BasicGroupBox']
+   |    |    |    | child_window(title="Basic", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'BodyCGLeverArm'    (L-1224, T509, R-388, B533)
+   |    |    |    |    | ['BodyCGLeverArm', 'ListItem11', 'BodyCGLeverArmListItem', 'BodyCGLeverArm0', 'BodyCGLeverArm1']
+   |    |    |    |    | child_window(title="BodyCGLeverArm", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'BodyCGLeverArm'    (L-1224, T509, R-388, B533)
+   |    |    |    |    |    | ['BodyCGLeverArmStatic', 'BodyCGLeverArm2', 'Static41']
+   |    |    |    |    |    | child_window(title="BodyCGLeverArm", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '[0,0,0]'    (L-975, T509, R-530, B533)
+   |    |    |    |    |    | ['[0,0,0]Static', 'Static42', '[0,0,0]', '[0,0,0]Static0', '[0,0,0]Static1', '[0,0,0]0', '[0,0,0]1']
+   |    |    |    |    |    | child_window(title="[0,0,0]", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'meter'    (L-530, T509, R-470, B533)
+   |    |    |    |    |    | ['meter', 'Static43', 'meterStatic', 'meter0', 'meter1', 'meterStatic0', 'meterStatic1']
+   |    |    |    |    |    | child_window(title="meter", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'float[3]'    (L-470, T509, R-388, B533)
+   |    |    |    |    |    | ['float[3]', 'float[3]Static', 'Static44', 'float[3]0', 'float[3]1', 'float[3]Static0', 'float[3]Static1']
+   |    |    |    |    |    | child_window(title="float[3]", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'BodyAlignment'    (L-1224, T534, R-388, B558)
+   |    |    |    |    | ['ListItem12', 'BodyAlignment', 'BodyAlignmentListItem', 'BodyAlignment0', 'BodyAlignment1']
+   |    |    |    |    | child_window(title="BodyAlignment", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'BodyAlignment'    (L-1224, T534, R-388, B558)
+   |    |    |    |    |    | ['BodyAlignmentStatic', 'Static45', 'BodyAlignment2']
+   |    |    |    |    |    | child_window(title="BodyAlignment", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '[1,0,0,0,1,0,0,0,1]'    (L-975, T534, R-530, B558)
+   |    |    |    |    |    | ['Static46', '[1,0,0,0,1,0,0,0,1]', '[1,0,0,0,1,0,0,0,1]Static', '[1,0,0,0,1,0,0,0,1]Static0', '[1,0,0,0,1,0,0,0,1]Static1']
+   |    |    |    |    |    | child_window(title="[1,0,0,0,1,0,0,0,1]", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T534, R-470, B558)
+   |    |    |    |    |    | ['Static47', '[1,0,0,0,1,0,0,0,1]Static2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'float[9]'    (L-470, T534, R-388, B558)
+   |    |    |    |    |    | ['Static48', 'float[9]', 'float[9]Static']
+   |    |    |    |    |    | child_window(title="float[9]", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'BodyLeverArm'    (L-1224, T559, R-388, B583)
+   |    |    |    |    | ['BodyLeverArmListItem', 'ListItem13', 'BodyLeverArm', 'BodyLeverArm0', 'BodyLeverArm1']
+   |    |    |    |    | child_window(title="BodyLeverArm", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'BodyLeverArm'    (L-1224, T559, R-388, B583)
+   |    |    |    |    |    | ['Static49', 'BodyLeverArmStatic', 'BodyLeverArm2']
+   |    |    |    |    |    | child_window(title="BodyLeverArm", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '[0,0,0]'    (L-975, T559, R-530, B583)
+   |    |    |    |    |    | ['[0,0,0]Static2', 'Static50', '[0,0,0]2']
+   |    |    |    |    |    | child_window(title="[0,0,0]", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'meter'    (L-530, T559, R-470, B583)
+   |    |    |    |    |    | ['meter2', 'Static51', 'meterStatic2']
+   |    |    |    |    |    | child_window(title="meter", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'float[3]'    (L-470, T559, R-388, B583)
+   |    |    |    |    |    | ['float[3]2', 'float[3]Static2', 'Static52']
+   |    |    |    |    |    | child_window(title="float[3]", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'MessageId'    (L-1224, T584, R-388, B608)
+   |    |    |    |    | ['MessageIdListItem', 'ListItem14', 'MessageId', 'MessageId0', 'MessageId1']
+   |    |    |    |    | child_window(title="MessageId", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'MessageId'    (L-1224, T584, R-388, B608)
+   |    |    |    |    |    | ['MessageIdStatic', 'Static53', 'MessageId2']
+   |    |    |    |    |    | child_window(title="MessageId", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0x10F3'    (L-975, T584, R-530, B608)
+   |    |    |    |    |    | ['Static54', '0x10F3Static', '0x10F3', '0x10F3Static0', '0x10F3Static1']
+   |    |    |    |    |    | child_window(title="0x10F3", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T584, R-470, B608)
+   |    |    |    |    |    | ['Static55', '0x10F3Static2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L-470, T584, R-388, B608)
+   |    |    |    |    |    | ['intStatic6', 'int6', 'Static56']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'TargetMode'    (L-1224, T609, R-388, B633)
+   |    |    |    |    | ['ListItem15', 'TargetModeListItem', 'TargetMode', 'TargetMode0', 'TargetMode1']
+   |    |    |    |    | child_window(title="TargetMode", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'TargetMode'    (L-1224, T609, R-388, B633)
+   |    |    |    |    |    | ['Static57', 'TargetModeStatic', 'TargetMode2']
+   |    |    |    |    |    | child_window(title="TargetMode", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '2'    (L-975, T609, R-530, B633)
+   |    |    |    |    |    | ['2', 'Static58', '2Static', '2Static0', '2Static1', '20', '21']
+   |    |    |    |    |    | child_window(title="2", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T609, R-470, B633)
+   |    |    |    |    |    | ['Static59', '2Static2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L-470, T609, R-388, B633)
+   |    |    |    |    |    | ['intStatic7', 'int7', 'Static60']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'TargetMeas'    (L-1224, T634, R-388, B658)
+   |    |    |    |    | ['ListItem16', 'TargetMeas', 'TargetMeasListItem', 'TargetMeas0', 'TargetMeas1']
+   |    |    |    |    | child_window(title="TargetMeas", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'TargetMeas'    (L-1224, T634, R-388, B658)
+   |    |    |    |    |    | ['TargetMeasStatic', 'Static61', 'TargetMeas2']
+   |    |    |    |    |    | child_window(title="TargetMeas", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0x0010'    (L-975, T634, R-530, B658)
+   |    |    |    |    |    | ['Static62', '0x0010Static', '0x0010', '0x0010Static0', '0x0010Static1']
+   |    |    |    |    |    | child_window(title="0x0010", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T634, R-470, B658)
+   |    |    |    |    |    | ['Static63', '0x0010Static2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L-470, T634, R-388, B658)
+   |    |    |    |    |    | ['intStatic8', 'int8', 'Static64']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'GNSSMeasurementRate'    (L-1224, T659, R-388, B683)
+   |    |    |    |    | ['GNSSMeasurementRateListItem', 'ListItem17', 'GNSSMeasurementRate', 'GNSSMeasurementRate0', 'GNSSMeasurementRate1']
+   |    |    |    |    | child_window(title="GNSSMeasurementRate", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'GNSSMeasurementRate'    (L-1224, T659, R-388, B683)
+   |    |    |    |    |    | ['Static65', 'GNSSMeasurementRateStatic', 'GNSSMeasurementRate2']
+   |    |    |    |    |    | child_window(title="GNSSMeasurementRate", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L-975, T659, R-530, B683)
+   |    |    |    |    |    | ['Static66', '1Static5', '13']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Hz'    (L-530, T659, R-470, B683)
+   |    |    |    |    |    | ['Static67', 'Hz', 'HzStatic']
+   |    |    |    |    |    | child_window(title="Hz", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L-470, T659, R-388, B683)
+   |    |    |    |    |    | ['intStatic9', 'int9', 'Static68']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'Low Rate Messages'    (L-1224, T684, R-388, B708)
+   |    |    |    |    | ['Low Rate Messages', 'ListItem18', 'Low Rate MessagesListItem', 'Low Rate Messages0', 'Low Rate Messages1']
+   |    |    |    |    | child_window(title="Low Rate Messages", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Low Rate Messages'    (L-1224, T684, R-388, B708)
+   |    |    |    |    |    | ['Low Rate Messages2', 'Low Rate MessagesStatic', 'Static69']
+   |    |    |    |    |    | child_window(title="Low Rate Messages", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Click to edit Low Rate'    (L-975, T684, R-530, B708)
+   |    |    |    |    |    | ['Click to edit Low RateStatic', 'Click to edit Low Rate', 'Static70', 'Click to edit Low RateStatic0', 'Click to edit Low RateStatic1']
+   |    |    |    |    |    | child_window(title="Click to edit Low Rate", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T684, R-470, B708)
+   |    |    |    |    |    | ['Click to edit Low RateStatic2', 'Static71']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int[100]'    (L-470, T684, R-388, B708)
+   |    |    |    |    |    | ['int[100]', 'Static72', 'int[100]Static']
+   |    |    |    |    |    | child_window(title="int[100]", control_type="Text")
+   |    |    |    | 
+   |    |    |    | GroupBox - 'Initial Alignment'    (L-1224, T712, R-345, B734)
+   |    |    |    | ['GroupBox3', 'Initial Alignment', 'Initial AlignmentGroupBox']
+   |    |    |    | child_window(title="Initial Alignment", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'TypeInitRollPitch'    (L-1224, T733, R-388, B734)
+   |    |    |    |    | ['TypeInitRollPitchListItem', 'ListItem19', 'TypeInitRollPitch', 'TypeInitRollPitch0', 'TypeInitRollPitch1']
+   |    |    |    |    | child_window(title="TypeInitRollPitch", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'TypeInitRollPitch'    (L-1224, T733, R-388, B734)
+   |    |    |    |    |    | ['Static73', 'TypeInitRollPitchStatic', 'TypeInitRollPitch2']
+   |    |    |    |    |    | child_window(title="TypeInitRollPitch", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L-975, T733, R-530, B734)
+   |    |    |    |    |    | ['Static74', '1Static6', '14']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L-530, T733, R-470, B734)
+   |    |    |    |    |    | ['Static75', '1Static7']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L-470, T733, R-388, B734)
+   |    |    |    |    |    | ['intStatic10', 'int10', 'Static76']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'TypeInitYaw'    (L0, T0, R0, B0)
+   |    |    |    |    | ['TypeInitYaw', 'ListItem20', 'TypeInitYawListItem', 'TypeInitYaw0', 'TypeInitYaw1']
+   |    |    |    |    | child_window(title="TypeInitYaw", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'TypeInitYaw'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['TypeInitYaw2', 'Static77', 'TypeInitYawStatic']
+   |    |    |    |    |    | child_window(title="TypeInitYaw", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static78', '1Static8', '15']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static79']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['intStatic11', 'int11', 'Static80']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'InitRpy'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem21', 'InitRpyListItem', 'InitRpy', 'InitRpy0', 'InitRpy1']
+   |    |    |    |    | child_window(title="InitRpy", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'InitRpy'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['InitRpyStatic', 'Static81', 'InitRpy2']
+   |    |    |    |    |    | child_window(title="InitRpy", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '[0.000,0.000,0.000]'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static82', '[0.000,0.000,0.000]', '[0.000,0.000,0.000]Static']
+   |    |    |    |    |    | child_window(title="[0.000,0.000,0.000]", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'degree'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['degreeStatic', 'Static83', 'degree']
+   |    |    |    |    |    | child_window(title="degree", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'float[3]'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['float[3]3', 'float[3]Static3', 'Static84']
+   |    |    |    |    |    | child_window(title="float[3]", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'InitRpyVar'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem22', 'InitRpyVarListItem', 'InitRpyVar', 'InitRpyVar0', 'InitRpyVar1']
+   |    |    |    |    | child_window(title="InitRpyVar", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'InitRpyVar'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static85', 'InitRpyVarStatic', 'InitRpyVar2']
+   |    |    |    |    |    | child_window(title="InitRpyVar", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '[3.939,3.939,3.939]'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['[3.939,3.939,3.939]', 'Static86', '[3.939,3.939,3.939]Static']
+   |    |    |    |    |    | child_window(title="[3.939,3.939,3.939]", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'deg²'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['deg²', 'Static87', 'deg²Static']
+   |    |    |    |    |    | child_window(title="deg²", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'float[3]'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['float[3]4', 'float[3]Static4', 'Static88']
+   |    |    |    |    |    | child_window(title="float[3]", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'InitAlignTime'    (L0, T0, R0, B0)
+   |    |    |    |    | ['InitAlignTime', 'ListItem23', 'InitAlignTimeListItem', 'InitAlignTime0', 'InitAlignTime1']
+   |    |    |    |    | child_window(title="InitAlignTime", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'InitAlignTime'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['InitAlignTimeStatic', 'InitAlignTime2', 'Static89']
+   |    |    |    |    |    | child_window(title="InitAlignTime", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static90', '1Static9', '16']
+   |    |    |    |    |    | child_window(title="1", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'sec'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static91', 'sec', 'secStatic']
+   |    |    |    |    |    | child_window(title="sec", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'float'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static92', 'floatStatic', 'float', 'floatStatic0', 'floatStatic1', 'float0', 'float1']
+   |    |    |    |    |    | child_window(title="float", control_type="Text")
+   |    |    |    | 
+   |    |    |    | GroupBox - 'Sensor'    (L0, T0, R0, B0)
+   |    |    |    | ['GroupBox4', 'Sensor', 'SensorGroupBox']
+   |    |    |    | child_window(title="Sensor", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'LocalPressureAtSeaLevel'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem24', 'LocalPressureAtSeaLevel', 'LocalPressureAtSeaLevelListItem', 'LocalPressureAtSeaLevel0', 'LocalPressureAtSeaLevel1']
+   |    |    |    |    | child_window(title="LocalPressureAtSeaLevel", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'LocalPressureAtSeaLevel'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static93', 'LocalPressureAtSeaLevel2', 'LocalPressureAtSeaLevelStatic']
+   |    |    |    |    |    | child_window(title="LocalPressureAtSeaLevel", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '1013.25'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static94', '1013.25Static', '1013.25']
+   |    |    |    |    |    | child_window(title="1013.25", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'hPa'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['hPa', 'Static95', 'hPaStatic']
+   |    |    |    |    |    | child_window(title="hPa", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'float'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static96', 'floatStatic2', 'float2']
+   |    |    |    |    |    | child_window(title="float", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'LocalMagDeclination'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem25', 'LocalMagDeclination', 'LocalMagDeclinationListItem', 'LocalMagDeclination0', 'LocalMagDeclination1']
+   |    |    |    |    | child_window(title="LocalMagDeclination", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'LocalMagDeclination'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static97', 'LocalMagDeclination2', 'LocalMagDeclinationStatic']
+   |    |    |    |    |    | child_window(title="LocalMagDeclination", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0.108006'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['0.108006Static', '0.108006', 'Static98']
+   |    |    |    |    |    | child_window(title="0.108006", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'rad'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['radStatic', 'Static99', 'rad']
+   |    |    |    |    |    | child_window(title="rad", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'float'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static100', 'floatStatic3', 'float3']
+   |    |    |    |    |    | child_window(title="float", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'LLHHeightType'    (L0, T0, R0, B0)
+   |    |    |    |    | ['LLHHeightType', 'LLHHeightTypeListItem', 'ListItem26', 'LLHHeightType0', 'LLHHeightType1']
+   |    |    |    |    | child_window(title="LLHHeightType", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'LLHHeightType'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['LLHHeightType2', 'LLHHeightTypeStatic', 'Static101']
+   |    |    |    |    |    | child_window(title="LLHHeightType", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['0Static5', 'Static102', '03']
+   |    |    |    |    |    | child_window(title="0", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static103']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['intStatic12', 'int12', 'Static104']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'Magnetometer Calibration'    (L0, T0, R0, B0)
+   |    |    |    |    | ['Magnetometer Calibration', 'ListItem27', 'Magnetometer CalibrationListItem', 'Magnetometer Calibration0', 'Magnetometer Calibration1']
+   |    |    |    |    | child_window(title="Magnetometer Calibration", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Magnetometer Calibration'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Magnetometer Calibration2', 'Magnetometer CalibrationStatic', 'Static105']
+   |    |    |    |    |    | child_window(title="Magnetometer Calibration", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '[1,0,0,0,1,0,0,0,1,0,0,0]'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['[1,0,0,0,1,0,0,0,1,0,0,0]', '[1,0,0,0,1,0,0,0,1,0,0,0]Static', 'Static106']
+   |    |    |    |    |    | child_window(title="[1,0,0,0,1,0,0,0,1,0,0,0]", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static107']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'float[12]'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['float[12]Static', 'Static108', 'float[12]']
+   |    |    |    |    |    | child_window(title="float[12]", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'GNSSDynModel'    (L0, T0, R0, B0)
+   |    |    |    |    | ['GNSSDynModel', 'GNSSDynModelListItem', 'ListItem28', 'GNSSDynModel0', 'GNSSDynModel1']
+   |    |    |    |    | child_window(title="GNSSDynModel", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'GNSSDynModel'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['GNSSDynModel2', 'GNSSDynModelStatic', 'Static109']
+   |    |    |    |    |    | child_window(title="GNSSDynModel", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '7'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['7Static', '7', 'Static110']
+   |    |    |    |    |    | child_window(title="7", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static111']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['intStatic13', 'int13', 'Static112']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'GNSSFixMode'    (L0, T0, R0, B0)
+   |    |    |    |    | ['GNSSFixMode', 'ListItem29', 'GNSSFixModeListItem', 'GNSSFixMode0', 'GNSSFixMode1']
+   |    |    |    |    | child_window(title="GNSSFixMode", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'GNSSFixMode'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['GNSSFixMode2', 'Static113', 'GNSSFixModeStatic']
+   |    |    |    |    |    | child_window(title="GNSSFixMode", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '2'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['22', 'Static114', '2Static3']
+   |    |    |    |    |    | child_window(title="2", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static115']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['intStatic14', 'int14', 'Static116']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    | 
+   |    |    |    | GroupBox - 'Port'    (L0, T0, R0, B0)
+   |    |    |    | ['GroupBox5', 'Port', 'PortGroupBox']
+   |    |    |    | child_window(title="Port", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'Port Baud Rate Settings'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem30', 'Port Baud Rate SettingsListItem', 'Port Baud Rate Settings', 'Port Baud Rate Settings0', 'Port Baud Rate Settings1']
+   |    |    |    |    | child_window(title="Port Baud Rate Settings", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Port Baud Rate Settings'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static117', 'Port Baud Rate Settings2', 'Port Baud Rate SettingsStatic']
+   |    |    |    |    |    | child_window(title="Port Baud Rate Settings", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0x050505'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['0x050505', 'Static118', '0x050505Static']
+   |    |    |    |    |    | child_window(title="0x050505", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static119']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['intStatic15', 'int15', 'Static120']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'Port Protocol Settings'    (L0, T0, R0, B0)
+   |    |    |    |    | ['ListItem31', 'Port Protocol SettingsListItem', 'Port Protocol Settings', 'Port Protocol Settings0', 'Port Protocol Settings1']
+   |    |    |    |    | child_window(title="Port Protocol Settings", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Port Protocol Settings'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static121', 'Port Protocol SettingsStatic', 'Port Protocol Settings2']
+   |    |    |    |    |    | child_window(title="Port Protocol Settings", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0x040101'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['0x040101Static', '0x040101', 'Static122']
+   |    |    |    |    |    | child_window(title="0x040101", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Static123']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'int'    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['intStatic16', 'int16', 'Static124']
+   |    |    |    |    |    | child_window(title="int", control_type="Text")
+   |    | 
+   |    | Pane - ''    (L-1225, T735, R-327, B810)
+   |    | ['TypeInitRollPitchPane', 'Pane2', 'TypeInitRollPitchPane0', 'TypeInitRollPitchPane1']
+   |    | child_window(auto_id="panel1", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Presets'    (L-636, T756, R-536, B791)
+   |    |    | ['Presets', 'Pane3', 'PresetsPane']
+   |    |    | child_window(title="Presets", auto_id="arButtonPresets", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Configure from File'    (L-804, T756, R-644, B791)
+   |    |    | ['Configure from File', 'Pane4', 'Configure from FilePane']
+   |    |    | child_window(title="Configure from File", auto_id="buttonConfigureFile", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Copy to Clipboard'    (L-970, T756, R-812, B791)
+   |    |    | ['Pane5', 'Copy to Clipboard', 'Copy to ClipboardPane']
+   |    |    | child_window(title="Copy to Clipboard", auto_id="buttonClipBoard", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Close'    (L-479, T756, R-379, B791)
+   |    |    | ['ClosePane', 'Pane6', 'Close']
+   |    |    | child_window(title="Close", auto_id="buttonClose", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Save'    (L-1103, T756, R-1003, B791)
+   |    |    | ['SavePane', 'Pane7', 'Save']
+   |    |    | child_window(title="Save", auto_id="buttonSave", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Read All'    (L-1210, T756, R-1110, B791)
+   |    |    | ['Read All', 'Pane8', 'Read AllPane']
+   |    |    | child_window(title="Read All", auto_id="buttonReadAll", control_type="Pane")
+   |    | 
+   |    | TitleBar - ''    (L-1224, T136, R-312, B164)
+   |    | ['TitleBar', 'R-PTitleBar', 'TitleBar0', 'TitleBar1']
+   |    |    | 
+   |    |    | Menu - 'Sistem'    (L-1240, T141, R-1218, B163)
+   |    |    | ['Sistem', 'SistemMenu', 'Menu', 'Sistem0', 'Sistem1', 'Menu0', 'Menu1', 'SistemMenu0', 'SistemMenu1']
+   |    |    | child_window(title="Sistem", auto_id="MenuBar", control_type="MenuBar")
+   |    |    |    | 
+   |    |    |    | MenuItem - 'Sistem'    (L-1240, T141, R-1218, B163)
+   |    |    |    | ['SistemMenuItem', 'MenuItem', 'Sistem2', 'MenuItem0', 'MenuItem1', 'SistemMenuItem0', 'SistemMenuItem1']
+   |    |    |    | child_window(title="Sistem", control_type="MenuItem")
+   |    |    | 
+   |    |    | Button - 'Simge Durumuna Küçült'    (L-451, T134, R-404, B164)
+   |    |    | ['Simge Durumuna Küçült', 'Simge Durumuna KüçültButton', 'Button4', 'Simge Durumuna Küçült0', 'Simge Durumuna Küçült1', 'Simge Durumuna KüçültButton0', 'Simge Durumuna KüçültButton1']
+   |    |    | child_window(title="Simge Durumuna Küçült", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Ekraný Kapla'    (L-404, T134, R-358, B164)
+   |    |    | ['Ekraný KaplaButton', 'Ekraný Kapla', 'Button5', 'Ekraný KaplaButton0', 'Ekraný KaplaButton1', 'Ekraný Kapla0', 'Ekraný Kapla1']
+   |    |    | child_window(title="Ekraný Kapla", control_type="Button")
+   |    |    | 
+   |    |    | Button - 'Kapat'    (L-358, T134, R-311, B164)
+   |    |    | ['KapatButton', 'Button6', 'Kapat', 'KapatButton0', 'KapatButton1', 'Kapat0', 'Kapat1']
+   |    |    | child_window(title="Kapat", control_type="Button")
+   | 
+   | Pane - ''    (L-1382, T192, R-679, B823)
+   | ['Firmware VersionPane2', 'Pane9']
+   | child_window(auto_id="tableLayoutPanel1", control_type="Pane")
+   |    | 
+   |    | Pane - ''    (L-1378, T827, R-683, B828)
+   |    | ['TypeInitRollPitchPane2', 'Pane10']
+   |    | child_window(auto_id="panelConsole", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Set Heading'    (L-1226, T833, R-1105, B862)
+   |    |    | ['Pane11', 'Set HeadingPane', 'Set Heading']
+   |    |    | child_window(title="Set Heading", auto_id="arButtonSetHeading", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Gnss Off'    (L-968, T833, R-847, B862)
+   |    |    | ['Gnss Off', 'Pane12', 'Gnss OffPane']
+   |    |    | child_window(title="Gnss Off", auto_id="arButtonGnssOff", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Gnss On'    (L-1097, T833, R-976, B862)
+   |    |    | ['Pane13', 'Gnss On', 'Gnss OnPane']
+   |    |    | child_window(title="Gnss On", auto_id="arButtonGnssOn", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - 'Reset'    (L-839, T833, R-718, B862)
+   |    |    | ['ResetPane', 'Pane14', 'Reset']
+   |    |    | child_window(title="Reset", auto_id="arButtonReset", control_type="Pane")
+   |    |    | 
+   |    |    | Edit - ''    (L-1376, T804, R-685, B826)
+   |    |    | ['TypeInitRollPitchEdit', 'Edit']
+   |    |    | child_window(auto_id="textBoxCmd", control_type="Edit")
+   |    | 
+   |    | Pane - ''    (L-1378, T196, R-683, B819)
+   |    | ['Firmware VersionPane3', 'Pane15']
+   |    | child_window(auto_id="splitContainer1", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - ''    (L-1378, T196, R-683, B466)
+   |    |    | ['Firmware VersionPane4', 'Pane16']
+   |    |    | child_window(auto_id="3868608", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - 'Map View'    (L-776, T205, R-688, B233)
+   |    |    |    | ['Pane17', 'Map View', 'Map ViewPane']
+   |    |    |    | child_window(title="Map View", auto_id="buttonMapSwitch", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L-1378, T196, R-683, B466)
+   |    |    |    | ['Firmware VersionPane5', 'Pane18']
+   |    |    |    | child_window(auto_id="navDataView1", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L-1373, T253, R-690, B468)
+   |    |    |    |    | ['Firmware VersionPane6', 'Pane19']
+   |    |    |    |    | child_window(auto_id="arGlPlot", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L-1373, T253, R-690, B468)
+   |    |    |    |    |    | ['Firmware VersionPane7', 'Pane20']
+   |    |    |    |    |    | child_window(auto_id="panelGl", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - 'm/s^2'    (L-1373, T253, R-1352, B468)
+   |    |    |    |    |    |    | ['m/s^2Pane', 'Pane21', 'm/s^2']
+   |    |    |    |    |    |    | child_window(title="m/s^2", auto_id="verticalLabel", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'time(s)'    (L-1032, T448, R-977, B468)
+   |    |    |    |    |    |    | ['time(s)', 'Static125', 'time(s)Static', 'time(s)0', 'time(s)1', 'time(s)Static0', 'time(s)Static1']
+   |    |    |    |    |    |    | child_window(title="time(s)", auto_id="horizantalLabel", control_type="Text")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - ''    (L-1352, T278, R-690, B443)
+   |    |    |    |    |    |    | ['Pane22', 'Serial NumberPane']
+   |    |    |    |    |    |    | child_window(auto_id="NewGLControl", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L-1377, T197, R-684, B257)
+   |    |    |    |    | ['Firmware VersionPane8', 'Pane23']
+   |    |    |    |    | child_window(auto_id="panelHeader", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L-1071, T204, R-279, B244)
+   |    |    |    |    |    | ['"00A10901C012002F"Pane', 'Pane24']
+   |    |    |    |    |    | child_window(auto_id="flowLayoutPanel1", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | CheckBox - 'X'    (L-1066, T209, R-1026, B233)
+   |    |    |    |    |    |    | ['XCheckBox', 'X', 'CheckBox', 'CheckBox0', 'CheckBox1', 'XCheckBox0', 'XCheckBox1', 'X0', 'X1']
+   |    |    |    |    |    |    | child_window(title="X", auto_id="cbX", control_type="CheckBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | CheckBox - 'Y'    (L-1009, T209, R-970, B233)
+   |    |    |    |    |    |    | ['YCheckBox', 'Y', 'CheckBox2', 'YCheckBox0', 'YCheckBox1', 'Y0', 'Y1']
+   |    |    |    |    |    |    | child_window(title="Y", auto_id="cbY", control_type="CheckBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | CheckBox - 'Z'    (L-953, T209, R-913, B233)
+   |    |    |    |    |    |    | ['Z', 'ZCheckBox', 'CheckBox3', 'Z0', 'Z1', 'ZCheckBox0', 'ZCheckBox1']
+   |    |    |    |    |    |    | child_window(title="Z", auto_id="cbZ", control_type="CheckBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | CheckBox - 'Norm'    (L-896, T209, R-827, B233)
+   |    |    |    |    |    |    | ['Norm', 'CheckBox4', 'NormCheckBox', 'Norm0', 'Norm1', 'NormCheckBox0', 'NormCheckBox1']
+   |    |    |    |    |    |    | child_window(title="Norm", auto_id="cbNorm", control_type="CheckBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Acc'    (L-1262, T209, R-1094, B237)
+   |    |    |    |    |    | ['ComboBox', 'Acc', 'AccComboBox', 'ComboBox0', 'ComboBox1']
+   |    |    |    |    |    | child_window(title="Acc", auto_id="comboBoxSource", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L-1262, T209, R-1094, B237)
+   |    |    |    |    |    |    | ['Static126', 'Firmware VersionStatic2']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - 'Open'    (L-1114, T210, R-1095, B236)
+   |    |    |    |    |    |    | ['OpenButton', 'Open', 'Button7', 'OpenButton0', 'OpenButton1', 'Open0', 'Open1']
+   |    |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   |    |    | 
+   |    |    | Pane - ''    (L-1378, T471, R-683, B819)
+   |    |    | ['Pane25', 'StatePane', 'StatePane0', 'StatePane1']
+   |    |    | child_window(auto_id="1181552", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L-1378, T471, R-683, B819)
+   |    |    |    | ['Pane26', 'StatePane2']
+   |    |    |    | child_window(auto_id="navDataView2", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L-1373, T528, R-690, B821)
+   |    |    |    |    | ['Pane27', 'BodyCGLeverArmPane', 'BodyCGLeverArmPane0', 'BodyCGLeverArmPane1']
+   |    |    |    |    | child_window(auto_id="arGlPlot", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L-1373, T528, R-690, B821)
+   |    |    |    |    |    | ['Pane28', 'BodyCGLeverArmPane2']
+   |    |    |    |    |    | child_window(auto_id="panelGl", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - 'deg/s'    (L-1373, T528, R-1352, B821)
+   |    |    |    |    |    |    | ['deg/s', 'Pane29', 'deg/sPane']
+   |    |    |    |    |    |    | child_window(title="deg/s", auto_id="verticalLabel", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - 'time(s)'    (L-1032, T801, R-977, B821)
+   |    |    |    |    |    |    | ['time(s)2', 'Static127', 'time(s)Static2']
+   |    |    |    |    |    |    | child_window(title="time(s)", auto_id="horizantalLabel", control_type="Text")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - ''    (L-1352, T553, R-690, B796)
+   |    |    |    |    |    |    | ['Pane30', 'BodyAlignmentPane']
+   |    |    |    |    |    |    | child_window(auto_id="NewGLControl", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L-1377, T472, R-684, B532)
+   |    |    |    |    | ['Pane31', 'Hardware VersionPane']
+   |    |    |    |    | child_window(auto_id="panelHeader", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L-1071, T479, R-279, B519)
+   |    |    |    |    |    | ['time(s)Pane', 'Pane32']
+   |    |    |    |    |    | child_window(auto_id="flowLayoutPanel1", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | CheckBox - 'X'    (L-1066, T484, R-1026, B508)
+   |    |    |    |    |    |    | ['XCheckBox2', 'X2', 'CheckBox5']
+   |    |    |    |    |    |    | child_window(title="X", auto_id="cbX", control_type="CheckBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | CheckBox - 'Y'    (L-1009, T484, R-970, B508)
+   |    |    |    |    |    |    | ['YCheckBox2', 'Y2', 'CheckBox6']
+   |    |    |    |    |    |    | child_window(title="Y", auto_id="cbY", control_type="CheckBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | CheckBox - 'Z'    (L-953, T484, R-913, B508)
+   |    |    |    |    |    |    | ['Z2', 'ZCheckBox2', 'CheckBox7']
+   |    |    |    |    |    |    | child_window(title="Z", auto_id="cbZ", control_type="CheckBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | CheckBox - 'Norm'    (L-896, T484, R-827, B508)
+   |    |    |    |    |    |    | ['Norm2', 'CheckBox8', 'NormCheckBox2']
+   |    |    |    |    |    |    | child_window(title="Norm", auto_id="cbNorm", control_type="CheckBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Gyro'    (L-1262, T484, R-1094, B512)
+   |    |    |    |    |    | ['Gyro', 'ComboBox2', 'GyroComboBox']
+   |    |    |    |    |    | child_window(title="Gyro", auto_id="comboBoxSource", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Static - ''    (L-1262, T484, R-1094, B512)
+   |    |    |    |    |    |    | ['Static128', 'Hardware VersionStatic2']
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - 'Open'    (L-1114, T485, R-1095, B511)
+   |    |    |    |    |    |    | ['OpenButton2', 'Open2', 'Button8']
+   |    |    |    |    |    |    | child_window(title="Open", control_type="Button")
+   | 
+   | Pane - ''    (L-679, T192, R-170, B823)
+   | ['YAWPane', 'Pane33', 'YAWPane0', 'YAWPane1']
+   | child_window(auto_id="panelRight", control_type="Pane")
+   |    | 
+   |    | Pane - ''    (L-677, T196, R-178, B817)
+   |    | ['YAWPane2', 'Pane34']
+   |    | child_window(auto_id="splitContainer2", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - ''    (L-677, T196, R-178, B467)
+   |    |    | ['YAWPane3', 'Pane35']
+   |    |    | child_window(auto_id="7079544", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L-677, T196, R-178, B467)
+   |    |    |    | ['YAWPane4', 'Pane36']
+   |    |    |    | child_window(auto_id="panelDash", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L-677, T196, R-178, B467)
+   |    |    |    |    | ['YAWPane5', 'Pane37']
+   |    |    |    |    | child_window(auto_id="view3d", control_type="Pane")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Pane - ''    (L-677, T196, R-178, B467)
+   |    |    |    |    |    | ['YAWPane6', 'Pane38']
+   |    |    |    |    |    | child_window(auto_id="panel1", control_type="Pane")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - 'Efis'    (L-275, T204, R-188, B238)
+   |    |    |    |    |    |    | ['EfisButton', 'Efis', 'Button9']
+   |    |    |    |    |    |    | child_window(title="Efis", auto_id="arBtAdvance", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Button - 'Low Rate'    (L-385, T204, R-277, B238)
+   |    |    |    |    |    |    | ['Low Rate', 'Low RateButton', 'Button10']
+   |    |    |    |    |    |    | child_window(title="Low Rate", auto_id="ButtonVarsExt", control_type="Button")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | Pane - ''    (L-677, T196, R-178, B467)
+   |    |    |    |    |    |    | ['YAWPane7', 'Pane39']
+   |    |    |    |    |    |    | child_window(auto_id="NewGLControl", control_type="Pane")
+   |    |    | 
+   |    |    | Pane - ''    (L-677, T472, R-178, B817)
+   |    |    | ['Pane40', '"M223A-A"Pane']
+   |    |    | child_window(auto_id="4458724", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - 'Log Files Location: '    (L-677, T472, R-178, B517)
+   |    |    |    | ['Pane41', 'Log Files Location: ', 'Log Files Location: Pane']
+   |    |    |    | child_window(title="Log Files Location: ", auto_id="panelTabBtn", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - 'LowRate'    (L-499, T482, R-419, B517)
+   |    |    |    |    | ['Pane42', 'LowRate', 'LowRatePane']
+   |    |    |    |    | child_window(title="LowRate", auto_id="arButtonLowRate", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - 'Logs'    (L-676, T482, R-596, B517)
+   |    |    |    |    | ['Pane43', 'LogsPane', 'Logs']
+   |    |    |    |    | child_window(title="Logs", auto_id="arButtonLogTabBtn", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - 'Data'    (L-586, T482, R-506, B517)
+   |    |    |    |    | ['Pane44', 'Data', 'DataPane']
+   |    |    |    |    | child_window(title="Data", auto_id="arButtonDataTabBtn", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | Pane - ''    (L-672, T514, R-173, B809)
+   |    |    |    | ['[0,0,0]Pane', 'Pane45', '[0,0,0]Pane0', '[0,0,0]Pane1']
+   |    |    |    | child_window(auto_id="panelData", control_type="Pane")
+   |    |    |    |    | 
+   |    |    |    |    | Pane - ''    (L-672, T514, R-173, B809)
+   |    |    |    |    | ['[0,0,0]Pane2', 'Pane46']
+   |    |    |    |    | child_window(auto_id="dataPanelControl1", control_type="Pane")
+   | 
+   | Toolbar - 'toolStrip1'    (L-1382, T152, R-170, B192)
+   | ['toolStrip1Toolbar', 'toolStrip1', 'Toolbar']
+   | child_window(title="toolStrip1", auto_id="toolStripMain", control_type="ToolBar")
+   |    | 
+   |    | Thumb - 'Grip'    (L-1380, T152, R-1375, B192)
+   |    | ['GripThumb', 'Thumb2', 'Grip']
+   |    | child_window(title="Grip", control_type="Thumb")
+   |    | 
+   |    | Button - 'Record'    (L-1373, T153, R-1289, B190)
+   |    | ['RecordButton', 'Record', 'Button11']
+   |    | child_window(title="Record", control_type="Button")
+   |    | 
+   |    | Button - 'Stop'    (L-1289, T153, R-1227, B190)
+   |    | ['Button12', 'Stop', 'StopButton']
+   |    | child_window(title="Stop", control_type="Button")
+   |    | 
+   |    | Separator - ''    (L-1227, T152, R-1221, B192)
+   |    | ['Separator', 'Separator0', 'Separator1']
+   |    | 
+   |    | Button - 'Search'    (L-1221, T153, R-1139, B190)
+   |    | ['SearchButton', 'Search', 'Button13']
+   |    | child_window(title="Search", control_type="Button")
+   |    | 
+   |    | Button - 'Connect'    (L-1139, T153, R-1039, B190)
+   |    | ['Connect', 'ConnectButton', 'Button14']
+   |    | child_window(title="Connect", control_type="Button")
+   |    | 
+   |    | Button - 'Disconnect'    (L-1039, T153, R-929, B190)
+   |    | ['DisconnectButton', 'Disconnect', 'Button15']
+   |    | child_window(title="Disconnect", control_type="Button")
+   |    | 
+   |    | Separator - ''    (L-929, T152, R-923, B192)
+   |    | ['Separator2']
+   |    | 
+   |    | Button - 'Settings'    (L-923, T153, R-824, B190)
+   |    | ['Settings2', 'SettingsButton', 'Button16']
+   |    | child_window(title="Settings", control_type="Button")
+   |    | 
+   |    | Button - 'Data Select'    (L-824, T153, R-715, B190)
+   |    | ['Data SelectButton', 'Data Select', 'Button17']
+   |    | child_window(title="Data Select", control_type="Button")
+   |    | 
+   |    | Separator - ''    (L-715, T152, R-709, B192)
+   |    | ['Separator3']
+   |    | 
+   |    | Static - 'R-P'    (L-709, T153, R-677, B190)
+   |    | ['Static129', 'R-P', 'R-PStatic']
+   |    | child_window(title="R-P", control_type="Text")
+   |    | 
+   |    | Static - 'YAW'    (L-677, T153, R-638, B190)
+   |    | ['YAWStatic', 'Static130', 'YAW']
+   |    | child_window(title="YAW", control_type="Text")
+   |    | 
+   |    | Static - 'EXT\nDEV'    (L-638, T153, R-601, B190)
+   |    | ['EXT\nDEV', 'Static131', 'EXT\nDEVStatic']
+   |    | child_window(title="EXT\nDEV", control_type="Text")
+   |    | 
+   |    | Static - 'GNSS'    (L-601, T153, R-555, B190)
+   |    | ['GNSSStatic', 'Static132', 'GNSS']
+   |    | child_window(title="GNSS", control_type="Text")
+   |    | 
+   |    | Static - 'MAG'    (L-555, T153, R-513, B190)
+   |    | ['MAG', 'Static133', 'MAGStatic']
+   |    | child_window(title="MAG", control_type="Text")
+   |    | 
+   |    | Static - 'INS'    (L-513, T153, R-481, B190)
+   |    | ['INS', 'INSStatic', 'Static134']
+   |    | child_window(title="INS", control_type="Text")
+   |    | 
+   |    | Static - 'RTK'    (L-481, T153, R-447, B190)
+   |    | ['RTKStatic', 'Static135', 'RTK']
+   |    | child_window(title="RTK", control_type="Text")
+   |    | 
+   |    | Separator - ''    (L-447, T152, R-441, B192)
+   |    | ['RTKSeparator', 'Separator4']
+   |    | 
+   |    | Button - 'Map'    (L-441, T153, R-378, B190)
+   |    | ['Button18', 'MapButton', 'Map']
+   |    | child_window(title="Map", control_type="Button")
+   |    | 
+   |    | Button - 'Console'    (L-378, T153, R-300, B190)
+   |    | ['ConsoleButton', 'Console', 'Button19']
+   |    | child_window(title="Console", control_type="Button")
+   |    | 
+   |    | MenuItem - 'ToolBar Options'    (L-186, T152, R-170, B192)
+   |    | ['MenuItem2', 'ToolBar OptionsMenuItem', 'ToolBar Options']
+   |    | child_window(title="ToolBar Options", control_type="MenuItem")
+   | 
+   | Menu - 'menuStrip1'    (L-1382, T124, R-170, B152)
+   | ['menuStrip1', 'Menu2', 'menuStrip1Menu']
+   | child_window(title="menuStrip1", auto_id="menuStrip1", control_type="MenuBar")
+   |    | 
+   |    | MenuItem - 'Device'    (L-1376, T126, R-1310, B150)
+   |    | ['MenuItem3', 'Device', 'DeviceMenuItem']
+   |    | child_window(title="Device", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'View'    (L-1310, T126, R-1257, B150)
+   |    | ['MenuItem4', 'View', 'ViewMenuItem']
+   |    | child_window(title="View", control_type="MenuItem")
+   |    | 
+   |    | MenuItem - 'Help'    (L-1257, T126, R-1204, B150)
+   |    | ['MenuItem5', 'Help', 'HelpMenuItem']
+   |    | child_window(title="Help", control_type="MenuItem")
+   | 
+   | StatusBar - 'statusStrip1'    (L-1382, T823, R-170, B851)
+   | ['StatusBar', 'statusStrip1StatusBar', 'statusStrip1']
+   | child_window(title="statusStrip1", auto_id="statusStrip1", control_type="StatusBar")
+   |    | 
+   |    | Static - ''    (L-1381, T826, R-1271, B849)
+   |    | ['Static136']
+   |    | 
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static137']
+   | 
+   | TitleBar - ''    (L-1366, T96, R-170, B124)
+   | ['TitleBar2']
+   |    | 
+   |    | Menu - 'Sistem'    (L-1382, T101, R-1360, B123)
+   |    | ['Sistem3', 'SistemMenu2', 'Menu3']
+   |    | child_window(title="Sistem", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'Sistem'    (L-1382, T101, R-1360, B123)
+   |    |    | ['SistemMenuItem2', 'MenuItem6', 'Sistem4']
+   |    |    | child_window(title="Sistem", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Simge Durumuna Küçült'    (L-309, T94, R-262, B124)
+   |    | ['Simge Durumuna Küçült2', 'Simge Durumuna KüçültButton2', 'Button20']
+   |    | child_window(title="Simge Durumuna Küçült", control_type="Button")
+   |    | 
+   |    | Button - 'Ekraný Kapla'    (L-262, T94, R-216, B124)
+   |    | ['Ekraný KaplaButton2', 'Ekraný Kapla2', 'Button21']
+   |    | child_window(title="Ekraný Kapla", control_type="Button")
+   |    | 
+   |    | Button - 'Kapat'    (L-216, T94, R-169, B124)
+   |    | ['KapatButton2', 'Button22', 'Kapat2']
+   |    | child_window(title="Kapat", control_type="Button")
