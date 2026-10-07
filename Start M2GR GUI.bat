@@ -31,7 +31,7 @@ echo Starting updated GUI from "%GUI_SCRIPT%"...
 start "M2GR Web GUI" "%PYTHON%" "%GUI_SCRIPT%"
 set /a WAIT_COUNT=0
 :wait_for_server
-powershell -NoProfile -Command "try { $null=Invoke-WebRequest -Uri 'http://127.0.0.1:%PORT%/api/status' -TimeoutSec 1; exit 0 } catch { exit 1 }" >nul 2>&1
+powershell -NoProfile -Command "try { $null=Invoke-WebRequest -UseBasicParsing -Uri 'http://127.0.0.1:%PORT%/api/status' -TimeoutSec 1; exit 0 } catch { exit 1 }" >nul 2>&1
 if not errorlevel 1 goto open_gui
 set /a WAIT_COUNT+=1
 if %WAIT_COUNT% GEQ 20 (
