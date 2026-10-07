@@ -90,7 +90,7 @@ def M2GR_AccDondurmeTesti(dlg, device_sn, base_path, acc_dondurme_folder, tolera
     time.sleep(1)
 
     print("Sistemi 1. Konuma Getirin")
-    time.sleep(3)
+    time.sleep(6)
     result_1 = test_dondurme(dlg, device_sn, base_path, acc_dondurme_folder, tolerance_value, tolerance_value2, sleep_time)
     print("Result 1:", result_1)
 
@@ -104,7 +104,7 @@ def M2GR_AccDondurmeTesti(dlg, device_sn, base_path, acc_dondurme_folder, tolera
     time.sleep(1)
     
     print("Sistemi 2. Konuma Getirin")
-    time.sleep(3)
+    time.sleep(6)
     result_2 = test_dondurme(dlg, device_sn, base_path, acc_dondurme_folder, tolerance_value, tolerance_value2, sleep_time)
     print("Result 2:", result_2)
 
@@ -118,7 +118,7 @@ def M2GR_AccDondurmeTesti(dlg, device_sn, base_path, acc_dondurme_folder, tolera
     time.sleep(1)
 
     print("Sistemi 3. Konuma Getirin")
-    time.sleep(3)
+    time.sleep(6)
     result_3 = test_dondurme(dlg, device_sn, base_path, acc_dondurme_folder, tolerance_value, tolerance_value2, sleep_time)
     print("Result 3:", result_3)
 
@@ -132,7 +132,7 @@ def M2GR_AccDondurmeTesti(dlg, device_sn, base_path, acc_dondurme_folder, tolera
     time.sleep(1)
 
     print("Sistemi 4. Konuma Getirin")
-    time.sleep(3)
+    time.sleep(6)
     result_4 = test_dondurme(dlg, device_sn, base_path, acc_dondurme_folder, tolerance_value, tolerance_value2, sleep_time)
     print("Result 4:", result_4)
 
@@ -146,7 +146,7 @@ def M2GR_AccDondurmeTesti(dlg, device_sn, base_path, acc_dondurme_folder, tolera
     time.sleep(1)
 
     print("Sistemi 5. Konuma Getirin")
-    time.sleep(3)
+    time.sleep(6)
     result_5 = test_dondurme(dlg, device_sn, base_path, acc_dondurme_folder, tolerance_value, tolerance_value2, sleep_time)
     print("Result 5:", result_5)
 
@@ -160,7 +160,7 @@ def M2GR_AccDondurmeTesti(dlg, device_sn, base_path, acc_dondurme_folder, tolera
     time.sleep(1)
 
     print("Sistemi 6. Konuma Getirin")
-    time.sleep(3)
+    time.sleep(6)
     result_6 = test_dondurme(dlg, device_sn, base_path, acc_dondurme_folder, tolerance_value, tolerance_value2, sleep_time)
     print("Result 6:", result_6)
 

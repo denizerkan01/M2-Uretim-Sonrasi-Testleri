@@ -23,7 +23,8 @@ def RS422_232Testi(dlg, file_path, device_sn, hw_num, firmware_version, device_n
 
     
     if fnc.try_connect(dlg, target_enhanced, "Enhanced"):
-        results_422_conn = KalibrasyonKontrolTesti.KalibrasyonKontrolTesti(dlg,file_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, ref_matrix_magn, kalibrasyon_kontrol_folder)
+        #results_422_conn = KalibrasyonKontrolTesti.KalibrasyonKontrolTesti(dlg,file_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, ref_matrix_magn, kalibrasyon_kontrol_folder)       
+        results_422_conn = KalibrasyonKontrolTesti.KalibrasyonKontrolTesti(dlg,file_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, kalibrasyon_kontrol_folder)
         if results_422_conn["device_sn_match"] == True:
             result["result_422"] = True
         else:
@@ -33,7 +34,8 @@ def RS422_232Testi(dlg, file_path, device_sn, hw_num, firmware_version, device_n
     dlg.child_window(title="Disconnect", control_type="Button").click_input()
     
     if fnc.try_connect(dlg, target_standard, "Standard"):
-        results_232_conn = KalibrasyonKontrolTesti.KalibrasyonKontrolTesti(dlg,file_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, ref_matrix_magn, kalibrasyon_kontrol_folder)
+        #results_232_conn = KalibrasyonKontrolTesti.KalibrasyonKontrolTesti(dlg,file_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, ref_matrix_magn, kalibrasyon_kontrol_folder)
+        results_232_conn = KalibrasyonKontrolTesti.KalibrasyonKontrolTesti(dlg,file_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro,  kalibrasyon_kontrol_folder)
         if results_232_conn["device_sn_match"] == True:
             result["result_232"] = True
         else:

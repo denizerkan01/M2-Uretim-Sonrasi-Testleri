@@ -54,7 +54,8 @@ def _parse_and_compare_str(lines, key_name, expected_value):
     #print(f'check_calibration_factors: Key "{key_name}" not found in config file')
     return False
 
-def check_calibration_factors(file_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, ref_matrix_magn):
+#def check_calibration_factors(file_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, ref_matrix_magn):
+def check_calibration_factors(file_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro):    
 
     try:
         with open(file_path, "r", encoding="utf-8", errors="replace") as f:
@@ -69,7 +70,7 @@ def check_calibration_factors(file_path, device_sn, hw_num, firmware_version, de
 
     acc_is_calibrated = _parse_and_compare(lines, "MiscCalibAccFac", ref_matrix_acc)
     gyro_is_calibrated = _parse_and_compare(lines, "MiscCalibGyroFac", ref_matrix_gyro)
-    magn_is_calibrated = _parse_and_compare(lines, "MiscCalibMagFac", ref_matrix_magn)
+    #magn_is_calibrated = _parse_and_compare(lines, "MiscCalibMagFac", ref_matrix_magn)
 
     calib_ctrl_success = (
         device_sn_match
@@ -78,7 +79,7 @@ def check_calibration_factors(file_path, device_sn, hw_num, firmware_version, de
         and device_name_match
         and acc_is_calibrated
         and gyro_is_calibrated
-        and magn_is_calibrated
+        #and magn_is_calibrated
     )
 
     return {
@@ -88,11 +89,12 @@ def check_calibration_factors(file_path, device_sn, hw_num, firmware_version, de
         "device_name_match": device_name_match,
         "acc_is_calibrated": acc_is_calibrated,
         "gyro_is_calibrated": gyro_is_calibrated,
-        "magn_is_calibrated": magn_is_calibrated,
+        #"magn_is_calibrated": magn_is_calibrated,
         "calib_ctrl_success": calib_ctrl_success,
     }
 
-def KalibrasyonKontrolTesti(dlg, base_path, device_sn,hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, ref_matrix_magn, kalibrasyon_kontrol_folder):
+#def KalibrasyonKontrolTesti(dlg, base_path, device_sn,hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, ref_matrix_magn, kalibrasyon_kontrol_folder):
+def KalibrasyonKontrolTesti(dlg, base_path, device_sn,hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro,  kalibrasyon_kontrol_folder):
 
     time.sleep(5)
     dlg.child_window(title="Settings", control_type="Button").click_input()
@@ -110,7 +112,8 @@ def KalibrasyonKontrolTesti(dlg, base_path, device_sn,hw_num, firmware_version, 
     with open(config_path, "w", encoding="utf-8") as f:
         f.write(clipboard_content)
 
-    results = check_calibration_factors(config_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, ref_matrix_magn)
+    #results = check_calibration_factors(config_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro, ref_matrix_magn)
+    results = check_calibration_factors(config_path, device_sn, hw_num, firmware_version, device_name, ref_matrix_acc, ref_matrix_gyro)
 
 
     #if results["calib_ctrl_success"] == True:

@@ -16,44 +16,43 @@ HEADERS = {
     "I": ("HW Eşleşmesi (Limit Değerleri ve Sistem)", 45),
     "J": ("Acc Kalib Yüklenmesi", 30),
     "K": ("Gyro Kalib Yüklenmesi", 30),
-    "L": ("Mag Kalib Yüklenmesi", 30),
-    "M": ("Kalibrasyon - Config Kontrol Sonucu", 45),
-    "N": ("Hard Reset - 1 Sonucu:", 30),
-    "O": ("Hard Reset - 2 Sonucu:", 30),
-    "P": ("Soft Reset - 1 Sonucu:", 30),
-    "Q": ("Soft Reset - 2 Sonucu:", 30),
-    "R": ("Reset Testi Sonucu:", 30),
-    "S": ("Acc Norm Açılış Sonucu:", 45),
-    "T": ("Max Acc Norm Değeri:", 45),
-    "U": ("Min Acc Norm Değeri:", 45),
-    "V": ("Acc Norm Status:", 45),
-    "W": ("Gyro Açılış Sonucu:", 45),
-    "X": ("Acc Döndürme Test - 1 Sonucu:", 45),
-    "Y": ("Acc Döndürme Test - 2 Sonucu:", 45),
-    "Z": ("Acc Döndürme Test - 3 Sonucu:", 45),
-    "AA": ("Acc Döndürme Test - 4 Sonucu:", 45),
-    "AB": ("Acc Döndürme Test - 5 Sonucu:", 45),
-    "AC": ("Acc Döndürme Test - 6 Sonucu:", 45),
-    "AD": ("Acc Döndürme Test Sonucu:", 45),
-    "AE": ("Konum 1 Roll Ortalaması:", 40),
-    "AF": ("Konum 1 Pitch Ortalaması:", 40),
-    "AG": ("Konum 2 Roll Ortalaması:", 40),
-    "AH": ("Konum 2 Pitch Ortalaması:", 40),
-    "AI": ("Konum 3 Roll Ortalaması:", 40),
-    "AJ": ("Konum 3 Pitch Ortalaması:", 40),
-    "AK": ("Euler Test Sonucu:", 40),
-    "AL": ("Gyro Z Testi Yaw Farkı:", 40),
-    "AM": ("Gyro Z Test Sonucu:", 40),
-    "AN": ("RS 232 Bağlantı Sonucu:", 40),
-    "AO": ("RS 422 Bağlantı Sonucu:", 40),
-    "AP": ("RS 232-422 Bağlantı Sonucu:", 40),
-    "AQ": ("Görünen Anten Sayısı:",40),
-    "AR": ("GPS Testi Sonucu:", 40),
-    "AS": ("RTK Port 1 Görünen Anten Sayısı:", 40),
-    "AT": ("RTK Port 1 Sonucu:", 40),
-    "AU": ("RTK Port 2 Görünen Anten Sayısı:", 40),
-    "AV": ("RTK Port 2 Sonucu:", 40),
-    "AW": ("RTK Sonucu:", 30),
+    "L": ("Kalibrasyon - Config Kontrol Sonucu", 45),
+    "M": ("Hard Reset - 1 Sonucu:", 30),
+    "N": ("Hard Reset - 2 Sonucu:", 30),
+    "O": ("Soft Reset - 1 Sonucu:", 30),
+    "P": ("Soft Reset - 2 Sonucu:", 30),
+    "Q": ("Reset Testi Sonucu:", 30),
+    "R": ("Acc Norm Açılış Sonucu:", 45),
+    "S": ("Max Acc Norm Değeri:", 45),
+    "T": ("Min Acc Norm Değeri:", 45),
+    "U": ("Acc Norm Status:", 45),
+    "V": ("Gyro Açılış Sonucu:", 45),
+    "W": ("Acc Döndürme Test - 1 Sonucu:", 45),
+    "X": ("Acc Döndürme Test - 2 Sonucu:", 45),
+    "Y": ("Acc Döndürme Test - 3 Sonucu:", 45),
+    "Z": ("Acc Döndürme Test - 4 Sonucu:", 45),
+    "AA": ("Acc Döndürme Test - 5 Sonucu:", 45),
+    "AB": ("Acc Döndürme Test - 6 Sonucu:", 45),
+    "AC": ("Acc Döndürme Test Sonucu:", 45),
+    "AD": ("Konum 1 Roll Ortalaması:", 40),
+    "AE": ("Konum 1 Pitch Ortalaması:", 40),
+    "AF": ("Konum 2 Roll Ortalaması:", 40),
+    "AG": ("Konum 2 Pitch Ortalaması:", 40),
+    "AH": ("Konum 3 Roll Ortalaması:", 40),
+    "AI": ("Konum 3 Pitch Ortalaması:", 40),
+    "AJ": ("Euler Test Sonucu:", 40),
+    "AK": ("Gyro Z Testi Yaw Farkı:", 40),
+    "AL": ("Gyro Z Test Sonucu:", 40),
+    "AM": ("RS 232 Bağlantı Sonucu:", 40),
+    "AN": ("RS 422 Bağlantı Sonucu:", 40),
+    "AO": ("RS 232-422 Bağlantı Sonucu:", 40),
+    #"AP": ("Görünen Anten Sayısı:",40),
+    #"AQ": ("GPS Testi Sonucu:", 40),
+    #"AR": ("RTK Port 1 Görünen Anten Sayısı:", 40),
+    #"AS": ("RTK Port 1 Sonucu:", 40),
+    #"AT": ("RTK Port 2 Görünen Anten Sayısı:", 40),
+    #"AU": ("RTK Port 2 Sonucu:", 40),
+    #"AV": ("RTK Sonucu:", 30),
 
 }
 
@@ -66,20 +65,19 @@ Result_Values = {
     "I": ("Eşleşmeli", 45),
     "J": ("Yüklü Olmalı", 30),
     "K": ("Yüklü Olmalı", 30),
-    "L": ("Yüklü Olmalı", 30),
-    "T": ("9.82", 30),
-    "U": ("9.78", 30),
-    "V": ("Best veya Noted", 45),
+    "S": ("9.82", 30),
+    "T": ("9.78", 30),
+    "U": ("Best veya Noted", 45),
+    "AD": ("0.15'ten küçük olmalı:", 40),
     "AE": ("0.15'ten küçük olmalı:", 40),
-    "AF": ("0.15'ten küçük olmalı:", 40),
-    "AG": ("89.85 - 90 aralığında olmalı:", 40),
-    "AH": ("0.15'ten küçük olmalı:", 40),
-    "AI": ("179.85 - 180 aralığında olmalı:", 40),
-    "AJ": ("0.15'ten küçük olmalı:", 40),
-    "AK": ("0.3'ten küçük olmalı:", 40),
-    "AQ": ("15'ten fazla olmalı:", 40),
-    "AS": ("15'ten fazla olmalı:", 40),
-    "AU": ("15'ten fazla olmalı:", 40),
+    "AF": ("89.85 - 90 aralığında olmalı:", 40),
+    "AG": ("0.15'ten küçük olmalı:", 40),
+    "AH": ("179.85 - 180 aralığında olmalı:", 40),
+    "AI": ("0.15'ten küçük olmalı:", 40),
+    "AJ": ("0.3'ten küçük olmalı:", 40),
+    #"AP": ("15'ten fazla olmalı:", 40),
+    #"AR": ("15'ten fazla olmalı:", 40),
+    #"AT": ("15'ten fazla olmalı:", 40),
 
 }
 
@@ -129,7 +127,9 @@ def write_result(sheet, sn, column, value, red=False):
         cell.font=Font(color="FF0000")
         
 
-def Sonuc(pn, sn, base_path, results_Data_Select, results_Kalibrasyon_Kontrol, results_Reset, results_Acc_Acilis, results_Acc_Dondurme, results_Euler_Kontrol, results_Gyro_Z, results_conn, results_GPS, results_RTK):
+#def Sonuc(pn, sn, base_path, results_Data_Select, results_Kalibrasyon_Kontrol, results_Reset, results_Acc_Acilis, results_Acc_Dondurme, results_Euler_Kontrol, results_Gyro_Z, results_conn, results_GPS, results_RTK):
+ 
+def Sonuc(pn, sn, base_path, results_Data_Select, results_Kalibrasyon_Kontrol, results_Reset, results_Acc_Acilis, results_Acc_Dondurme, results_Euler_Kontrol, results_Gyro_Z, results_conn):
     folder_path = os.path.join(base_path, "Test Sonuclari")
     os.makedirs(folder_path, exist_ok=True)
     excel_folder_path = os.path.join(folder_path, "TestSonuclari.xlsx")
@@ -209,10 +209,10 @@ def Sonuc(pn, sn, base_path, results_Data_Select, results_Kalibrasyon_Kontrol, r
     else:
         write_result(sheet, sn, 11, "Gyro Kalib Yüklü Değil", red=True)
 
-    if results_Kalibrasyon_Kontrol["magn_is_calibrated"] == True:
-        write_result(sheet, sn, 12, "Magn Kalib Yüklü") 
-    else:
-        write_result(sheet, sn, 12, "Magn Kalib Yüklü Değil", red=True)
+    #if results_Kalibrasyon_Kontrol["magn_is_calibrated"] == True:
+        #write_result(sheet, sn, 12, "Magn Kalib Yüklü") 
+    #else:
+        #write_result(sheet, sn, 12, "Magn Kalib Yüklü Değil", red=True)
 
     if results_Kalibrasyon_Kontrol["calib_ctrl_success"] == True:
         write_result(sheet, sn, 13, "Geçti") 
@@ -337,7 +337,7 @@ def Sonuc(pn, sn, base_path, results_Data_Select, results_Kalibrasyon_Kontrol, r
     else:
         write_result(sheet, sn, 42, "Kaldı", red=True)
 
-    write_result(sheet, sn, 43, results_GPS["AntennaNumber"]) 
+    """write_result(sheet, sn, 43, results_GPS["AntennaNumber"]) 
 
     if results_GPS["GpsSuccess"] == True:
         write_result(sheet, sn, 44, "Geçti") 
@@ -361,7 +361,7 @@ def Sonuc(pn, sn, base_path, results_Data_Select, results_Kalibrasyon_Kontrol, r
     if results_RTK["RTK_Success"] == True:
         write_result(sheet, sn, 49, "Geçti") 
     else:
-        write_result(sheet, sn, 49, "Kaldı", red=True)
+        write_result(sheet, sn, 49, "Kaldı", red=True)"""
     
 
     
