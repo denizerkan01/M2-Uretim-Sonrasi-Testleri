@@ -40,6 +40,7 @@ def device_sn(device_folder):
     target_standard = fnc.find_port("Standard", ports)
 
     if not fnc.try_connect(dlg, target_standard, "Standard"):
+        print("GUI_INFO|custom|Sisteme bağlanılamamaktadır.")
         sys.exit("!!! Can't Connect to the Device !!!")
 
     dlg.child_window(title="Settings", control_type="Button").click_input()
@@ -75,6 +76,7 @@ def device_pn(device_folder):
     target_standard = fnc.find_port("Standard", ports)
     
     if not fnc.try_connect(dlg, target_standard, "Standard"):
+        print("GUI_INFO|custom|Sisteme bağlanılamamaktadır.")
         sys.exit("!!! Can't Connect to the Device !!!")
 
     dlg.child_window(title="Settings", control_type="Button").click_input()
@@ -156,12 +158,16 @@ def M2GR_main():
     if pn_input == pn_dvc:
         if sn_input == sn_dvc:
             print("SN ve PN doğru")
+            print("GUI_INFO|custom|Sisteme ait SN ve PN ile girilen SN ve PN eşleşmektedir.")
         elif sn_input != sn_dvc:
+            print("GUI_INFO|custom|Sisteme ait SN ile girilen SN eşleşmemektedir.")
             sys.exit("PN doğrudur. Sistemde yüklü olan ve etikette olan SN farklı")
     elif pn_input != pn_dvc:
         if sn_input == sn_dvc:
+            print("GUI_INFO|custom|Sisteme ait PN ile girilen PN eşleşmemektedir.")
             sys.exit("SN doğrudur. Sistemde yüklü olan ve etikette olan PN farklı")
         elif sn_input != sn_dvc:
+            print("GUI_INFO|custom|Sisteme ait SN ve PN ile girilen SN ve PN eşleşmemektedir.")
             sys.exit("Sistemde yüklü olan ve etikette olan PN ve SN farklı")
 
     limit_data = find_limit_file(pn_dvc, base_path)
@@ -178,6 +184,7 @@ def M2GR_main():
 
     if not fnc.try_connect(dlg, target_standard, "Standard"):
         print("GUI_CONNECTION|false")
+        print("GUI_INFO|custom|Sisteme bağlanılamamaktadır.")
         sys.exit("!!! Can't Connect to the Device !!!")
     print("GUI_CONNECTION|true")
 
@@ -291,6 +298,7 @@ def M2GR_main():
     target_standard = fnc.find_port("Standard", ports)
     
     if not fnc.try_connect(dlg, target_standard, "Standard"):
+        print("GUI_INFO|custom|Sisteme bağlanılamamaktadır.")
         sys.exit("!!! Can't Connect to the Device !!!")
 
     print("***Test 9: GPS Testi")
