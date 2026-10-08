@@ -229,6 +229,10 @@ def M2GR_main():
     config_structure.config_structure_acc_norm_gyro_acilis(dlg, limits.checkbox_states_general)
     results_Reset = M2GR_ResetTesti.M2GR_ResetTesti(dlg, sn_dvc, example_folder_path, limits.hard_reset_folder, limits.soft_reset_folder, limits.sleep_time_reset_testi)
     print(f"GUI_RESULT|03|{str(bool(results_Reset.get('reset_result'))).lower()}")
+    for reset_step in ("hard_reset_test_1", "hard_reset_test_2", "soft_reset_test_1", "soft_reset_test_2"):
+        reset_value = results_Reset.get(reset_step)
+        if reset_value is not None:
+            print(f"GUI_STEP|03|{reset_step}|{str(bool(reset_value)).lower()}")
     print("***Test 3: Reset Testi TAMAMLANDI")
 
     # Test 4: ACC Norm ve Gyro Açılış Testi
@@ -236,6 +240,10 @@ def M2GR_main():
     config_structure.config_structure_acc_norm_gyro_acilis(dlg, limits.checkbox_states_general)
     results_Acc_Acilis = M2GR_AccNormGyroAcilisTesti.M2GR_AccNormGyroAcilisTesti(dlg, sn_dvc, example_folder_path, limits.acc_acilis_folder, limits.acc_acilis_successfull_needed, limits.max_ok_acc_norm_value, limits.min_ok_acc_norm_value, limits.max_best_acc_norm_value, limits.min_best_acc_norm_value, limits.sleep_time_acc_norm_gyro_acilis)
     print(f"GUI_RESULT|04|{str(bool(results_Acc_Acilis.get('CalibrationSuccess') and results_Acc_Acilis.get('gyro_acilis_success'))).lower()}")
+    for acc_step in ("CalibrationSuccess", "gyro_acilis_success"):
+        acc_step_result = results_Acc_Acilis.get(acc_step)
+        if acc_step_result is not None:
+            print(f"GUI_STEP|04|{acc_step}|{str(bool(acc_step_result)).lower()}")
     print("***Test 4: Acc Norm ve Gyro Açılış Testi TAMAMLANDI")
 
     #Test 5: Acc Döndürme Testi
@@ -243,6 +251,10 @@ def M2GR_main():
     config_structure.config_structure_acc_norm_gyro_acilis(dlg, limits.checkbox_states_general)
     results_Acc_Dondurme = M2GR_AccDondurmeTesti.M2GR_AccDondurmeTesti(dlg, sn_dvc, example_folder_path, limits.acc_dondurme_folder, 0.5, 0.5, limits.sleep_time_acc_dondurme)
     print(f"GUI_RESULT|05|{str(bool(results_Acc_Dondurme.get('AccDondurmeSuccess'))).lower()}")
+    for position_step in ("test_1", "test_2", "test_3", "test_4", "test_5", "test_6"):
+        position_result = results_Acc_Dondurme.get(position_step)
+        if position_result is not None:
+            print(f"GUI_STEP|05|{position_step}|{str(bool(position_result)).lower()}")
     print("***Test 5: Acc Döndürme Testi TAMAMLANDI")
     print(results_Acc_Dondurme)
 
@@ -251,6 +263,10 @@ def M2GR_main():
     config_structure.config_structure_acc_norm_gyro_acilis(dlg, limits.checkbox_states_general)
     results_Euler_Kontrol = M2GR_EulerKontrolTesti.M2GR_EulerKontrolTesti(dlg, sn_dvc, example_folder_path, limits.euler_kontrol_folder, limits.euler_kontrol_folder, limits.max_roll_value, limits.min_roll_value, limits.max_pitch_value, limits.min_pitch_value, limits.sleep_time_euler_kontrol)
     print(f"GUI_RESULT|06|{str(bool(results_Euler_Kontrol.get('EulerSuccess'))).lower()}")
+    for euler_step in ("test_1", "test_2", "test_3"):
+        euler_step_result = results_Euler_Kontrol.get(euler_step)
+        if euler_step_result is not None:
+            print(f"GUI_STEP|06|{euler_step}|{str(bool(euler_step_result)).lower()}")
     print("***Test 6: Euler Kontrol Testi TAMAMLANDI")
 
     #Test 7: Gyro Z Testi
@@ -267,6 +283,10 @@ def M2GR_main():
     print(f"GUI_PORT|enhanced|{target_enhanced or ''}")
     results_conn = RS422_232Testi.RS422_232Testi(dlg, example_folder_path, sn_dvc, limits.hw_num, limits.firmware_version, limits.device_name, limits.ref_matrix_acc, limits.ref_matrix_gyro, limits.ref_matrix_magn, limits.kalibrasyon_kontrol_folder)
     print(f"GUI_RESULT|08|{str(bool(results_conn.get('result_conn'))).lower()}")
+    for connection_step in ("result_232", "result_422"):
+        connection_step_result = results_conn.get(connection_step)
+        if connection_step_result is not None:
+            print(f"GUI_STEP|08|{connection_step}|{str(bool(connection_step_result)).lower()}")
     print("***Test 8: Bağlantı Testi TAMAMLANDI")
     """
     #Test 9: Anten Testi
